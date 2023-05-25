@@ -1,4 +1,4 @@
-const localEnv = !process.env.PORT? require('./env.local').enviroment : null
+const path = require('path')
 
 module.exports.enviroment = {
     port: 3000,
