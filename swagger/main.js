@@ -10,7 +10,7 @@ module.exports.swaggerDocument = {
         description: pkg.description,
         termsOfService: '',
         contact: { name: 'Nicolas Haussaire', email: 'jnhaussaire@hotmail.com' }   },
-    servers: [{  url: 'http://localhost:3000', description: 'Local server' },
+    servers: [{  url: 'http://localhost:8080', description: 'Local server' },
                 {  url: 'http://iskaypet-niko-api.eu-west-3.elasticbeanstalk.com/', description: 'ASW cloud test server' }],
     
     paths: {

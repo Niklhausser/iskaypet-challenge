@@ -18,7 +18,7 @@ Once the installation is complete, you can run the project using the following c
 npm start
 ```
 
-This command will start the application and make it accessible at http://localhost:3000/.
+This command will start the application and make it accessible at http://localhost:8080/.
 
 To run the tests for this project, you can use the following command:
 
@@ -52,7 +52,7 @@ Feel free to explore and interact with these services as part of your testing pr
 
 ## Swagger UI
 
-You can access to the swagger service at http://localhost:3000/swagger-ui
+You can access to the swagger service at http://localhost:8080/swagger-ui
 
 ## Contact
 
