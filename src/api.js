@@ -15,7 +15,7 @@ app.use(function(req, res, next) {
     next();
   });
 
-app.get('/health', (req, res) => res.send(JSON.stringify({"msg": 'Server is up & running!!... Im Aliveeee', "frontVersion": frontVersion })))
+app.get('/', (req, res) => res.send(JSON.stringify({"msg": 'Server is up & running!!... Im Aliveeee' })))
 
 const handle = fn => async (req, res) => {
     try { 
